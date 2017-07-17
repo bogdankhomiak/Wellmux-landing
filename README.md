@@ -1,7 +1,7 @@
 # Wellmux-landing
 Команды для старта:
 
-npm instal
+npm install
 
 bower i
 
