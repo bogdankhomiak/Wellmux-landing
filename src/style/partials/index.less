@@ -1,8 +1,14 @@
+/**********BASE**********/
 .clearfix:after,
 .clearfix:before {
   content: "";
   display: table;
   clear: both;
+}
+
+html, body {
+  color: #000;
+  font-family: pt-sans-regual, sans-serif;
 }
 
 p {
@@ -36,6 +42,7 @@ h2 {
   text-align: center;
 }
 
+/**********BASE-END**********/
 .subtitle {
   font-family: pt-sans-regual, sans-serif;
   font-size: 20px;
@@ -44,11 +51,6 @@ h2 {
   line-height: 25px;
   display: block;
 
-}
-
-html, body {
-  color: #000;
-  font-family: pt-sans-regual, sans-serif;
 }
 
 .header {
@@ -104,6 +106,11 @@ html, body {
   margin: 0 -15px;
 }
 
+.on {
+  display: block;
+  z-index: 1;
+}
+
 .slider {
   &__item {
     width: 100%;
@@ -142,6 +149,7 @@ html, body {
   }
 }
 
+/**********FLICKITY**********/
 .flickity-page-dots {
   bottom: 48px;
 }
@@ -153,6 +161,7 @@ html, body {
   background-color: #fff;
 }
 
+/**********FLICKITY-END**********/
 .features {
   background-color: #fff;
   padding: 92px 0 23px;
@@ -189,31 +198,16 @@ html, body {
   }
 }
 
-::-webkit-input-placeholder {
-  font-family: pt-sans-regual, sans-serif;
-  font-size: 16px;
-  color: #898989;
-}
-
-.social {
-  &__list {
-    text-align: center;
-    font-size: 0;
-  }
-  &__item {
-    display: inline-block;
-    margin: 0 18px;
-  }
-  &__link {
-    font-size: 42px;
-    color: #fcdb00;
-  }
-}
-
 .form {
   text-align: center;
   font-size: 0;
   margin: 39px 0 67px;
+}
+
+::-webkit-input-placeholder {
+  font-family: pt-sans-regual, sans-serif;
+  font-size: 16px;
+  color: #898989;
 }
 
 .input-email {
@@ -238,6 +232,21 @@ html, body {
   transition: 0.5s;
   &:hover {
     background-color: #23527c;
+  }
+}
+
+.social {
+  &__list {
+    text-align: center;
+    font-size: 0;
+  }
+  &__item {
+    display: inline-block;
+    margin: 0 18px;
+  }
+  &__link {
+    font-size: 42px;
+    color: #fcdb00;
   }
 }
 
