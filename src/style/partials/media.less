@@ -1,4 +1,23 @@
 @media (max-width: 767px) {
+  .menu {
+    float: none;
+    text-align: center;
+    display: none;
+    position: fixed;
+    width: 100%;
+    margin: 0 -15px;
+    background-color: #fcdb00;
+    top: 48px;
+    box-shadow: 6px 7px 15px 0 rgba(88, 121, 131, 0.29);
+    &__item {
+      display: block;
+    }
+    &__link {
+      margin: 0;
+      padding: 15px 0;
+    }
+  }
+
   .slider {
     text-align: center;
     & .subtitle {
@@ -8,9 +27,18 @@
     &__txt {
       padding-right: 0;
     }
+    &__description {
+      padding-top: 0;
+    }
+    &__item {
+      padding-top: 20px;
+      padding-bottom: 70px;
+    }
   }
 
   .features {
+    padding-top: 50px;
+    padding-bottom: 0;
     text-align: center;
     & .subtitle {
       padding-left: 0;
@@ -18,14 +46,27 @@
     }
   }
 
+  .list {
+    margin-bottom: 0;
+  }
+
   .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
     & .subtitle {
       padding-left: 0;
       padding-right: 0;
     }
+    &__list {
+      margin-top: 40px;
+    }
     &__items {
       margin-bottom: 15px;
     }
+  }
+
+  .form {
+    margin-bottom: 40px;
   }
 
   .input-email {
@@ -35,6 +76,21 @@
   }
 }
 
-.topper {
-  display: none;
+.menu-btn {
+  position: fixed;
+  top: 0;
+  background-color: #fcdb00;
+  font-size: 20px;
+  font-family: pt-sans-bold, sans-serif;
+  text-align: right;
+  width: 100%;
+  padding: 10px 15px;
+  z-index: 1;
+  box-shadow: 6px 7px 15px 0 rgba(88, 121, 131, 0.29);
+  margin: 0 -15px;
+}
+
+.on {
+  display: block;
+  z-index: 1;
 }
