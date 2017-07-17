@@ -1,0 +1,17 @@
+{
+    "name": "habr",
+    "version": "0.0.0",
+    "authors": [
+    "bogdankhomiak <peculiarsev@gmail.com>"
+  ],
+    "license": "MIT",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+    "dependencies": {
+        "normalize.css": "*",
+        "jquery": "2.*"
+    }
+}
