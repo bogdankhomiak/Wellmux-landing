@@ -1,6 +1,5 @@
 # Wellmux-landing
-Wellmux landing
-команды для старта:
+Команды для старта:
 
 npm instal
 
